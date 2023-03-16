@@ -1,0 +1,23 @@
+ .slider-button:hover {
+        background-color: #8d838321;
+        /* background: linear-gradient(to right, rgba(0,0,0),rgba(0,0,0,0.3)); */
+    }
+    .slider-content {
+        background-color: #8d8383c4;
+    }
+
+
+    .product-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .product-box .product {
+        height: max-content;
+        width: 300px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }

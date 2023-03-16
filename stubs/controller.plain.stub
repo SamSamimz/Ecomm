@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class {{ class }} extends Controller
+{
+    //__index
+    public function index() {
+        return view('/');
+    }
+
+    //__store
+    public function store(Request $request) {
+        /////
+    }
+}
